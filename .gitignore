@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Generated video artifacts
+input/
+music/
+input/**/screenshot.png
+input/**/generatedTexts.json
+input/**/selectedMusic.json
+input/**/voiceover_*.mp3
+input/**/rendered_*.mp4
+input/**/captioned_*.mp4
