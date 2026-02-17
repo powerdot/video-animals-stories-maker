@@ -1,5 +1,9 @@
 # Video Animals Stories Maker
 
+[Medium Article](https://medium.com/p/6041f87d4c8a)
+
+![Project idea overview](docs/idea.png)
+
 A TypeScript pipeline for automatic generation of vertical animal videos:
 - voiceover script generation;
 - title and description generation;
@@ -97,16 +101,16 @@ Required for full pipeline execution:
 
 Commonly used options:
 
-- `DEFAULT_VIDEOS` — comma-separated list of `videoId`
-- `DEFAULT_LANGUAGES` — comma-separated list of languages
-- `INPUT_DIR` — input directory path (default: `input`)
-- `MUSIC_DIR` — music directory path (default: `music`)
-- `MUSIC_DESCRIPTIONS_PATH` — music descriptions file path
-- `S3_REGION` — region (default: `us-east-1`)
-- `S3_ENDPOINT` — custom S3 endpoint for non-AWS providers
-- `S3_FORCE_PATH_STYLE` — force path-style URLs (`true`/`false`)
-- `S3_PUBLIC_BASE_URL` — public URL prefix for uploaded objects
-- `S3_ACCESS_KEY_ID` / `S3_SECRET_ACCESS_KEY` / `S3_SESSION_TOKEN` — optional S3 credentials (if omitted, AWS default provider chain is used)
+- `DEFAULT_VIDEOS` - comma-separated list of `videoId`
+- `DEFAULT_LANGUAGES` - comma-separated list of languages
+- `INPUT_DIR` - input directory path (default: `input`)
+- `MUSIC_DIR` - music directory path (default: `music`)
+- `MUSIC_DESCRIPTIONS_PATH` - music descriptions file path
+- `S3_REGION` - region (default: `us-east-1`)
+- `S3_ENDPOINT` - custom S3 endpoint for non-AWS providers
+- `S3_FORCE_PATH_STYLE` - force path-style URLs (`true`/`false`)
+- `S3_PUBLIC_BASE_URL` - public URL prefix for uploaded objects
+- `S3_ACCESS_KEY_ID` / `S3_SECRET_ACCESS_KEY` / `S3_SESSION_TOKEN` - optional S3 credentials (if omitted, AWS default provider chain is used)
 
 See `.env.example` for the full template.
 
